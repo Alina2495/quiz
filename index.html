@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="d-flex booox">
+        <div class="box blue-border d-flex flex-column align-items-center px-5">
+            <div class="steps d-flex my-5">
+                <div class="active"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h1>Что вам нравится?</h1>
+            <!-- step 1 -->
+            <div class="row row-cols-lg-3 my-5">
+                <div>
+                    <div class="blue-border py-3 px-4 h-100">
+                        <input id="step-1-check-1" type="checkbox" class="form-check-input">
+                        <label for="step-1-check-1" class="form-labe">Мне нравится первый вариант</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="blue-border py-3 px-4 h-100">
+                        <input id="step-1-check-2" type="checkbox" class="form-check-input">
+                        <label for="step-1-check-2" class="form-labe">Второй вариант</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="blue-border py-3 px-4 h-100">
+                        <input id="step-1-check-3" type="checkbox" class="form-check-input">
+                        <label for="step-1-check-3" class="form-labe">Вариант №3</label>
+                    </div>
+                </div>
+            </div>
+            <!-- step 2 -->
+            <div class="row row-cols-lg-3 my-5">
+                <div>
+                    <div class="blue-border py-3 px-4 h-50 mb-2">
+                    </div>
+                    <input id="step-2-radio-1" type="radio" name="step-2" class="form-check-input">
+                    <label for="step-2-radio-1" class="form-labe">Мне нравится первый вариант</label>
+                </div>
+                <div>
+                    <div class="blue-border py-3 px-4 h-50 mb-2">
+                    </div>
+                    <input id="step-2-radio-2" type="radio" name="step-2" class="form-check-input">
+                    <label for="step-2-radio-2" class="form-labe">Второй вариант</label>
+                </div>
+                <div>
+                    <div class="blue-border py-3 px-4 h-50 mb-2">
+                    </div>
+                    <input id="step-2-radio-3" type="radio" name="step-2" class="form-check-input">
+                    <label for="step-2-radio-3" class="form-labe">Вариант №3</label>
+                </div>
+            </div>
+            <!-- step 3 -->
+            <div class="row row-cols-lg-3 my-5">
+                <div>
+                    <label for="step-3-input-1" class="form-label">Заполните то</label>
+                    <input id="step-3-input-1" type="text" class="blue-border form-control">
+                </div>
+                <div>
+                    <label for="step-3-input-2" class="form-label">Заполните это</label>
+                    <input id="step-3-input-2" type="tel" name="step-2" class="blue-border form-control">
+                </div>
+                <div>
+                    <label for="step-3-input-3" class="form-label">Заполните и это</label>
+                    <input id="step-3-input-3" type="text" class="blue-border form-control">
+                </div>
+            </div>
+            <button class="btn col-lg-4 mb-5">Далее</button>
+        </div>
+        <div class="aside p-3">
+            <h2 class="fw-normal"><span class="fw-bold">1 шаг</span> из 6</h2>
+            <p>Пройдите тест и выберите подарок!</p>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

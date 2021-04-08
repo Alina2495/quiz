@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.booox {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.steps div {
+  width: 95px;
+  height: 5px;
+  background: #E3F2FD;
+  margin-right: 10px;
+}
+
+.steps div.active {
+  background: #2196F3;
+}
+
+.form-check-input {
+  width: 25px;
+  height: 25px;
+  background-color: #E3F2FD;
+  border-radius: 4px;
+  border: none;
+  margin: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.form-check-input:checked[type=checkbox] {
+  background-color: #2196F3;
+  background-image: url("../img/icons/checked.svg");
+}
+
+.form-check-input:checked[type=radio] {
+  background-image: url("../img/icons/radio.svg");
+}
+
+label {
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.btn {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(13, 71, 161, 0.8)), color-stop(57.72%, #2196F3));
+  background-image: linear-gradient(90deg, rgba(13, 71, 161, 0.8) 0%, #2196F3 57.72%);
+  -webkit-box-shadow: 0px 15px 26px rgba(33, 150, 243, 0.33);
+          box-shadow: 0px 15px 26px rgba(33, 150, 243, 0.33);
+  border-radius: 40px;
+  border: none;
+  font-size: 24px;
+  line-height: 1em;
+  padding: 15px 32px;
+}
+
+.blue-border {
+  border: 2px solid #2196F3;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside {
+  width: 330px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1.39%, #E3F2FD), to(rgba(227, 242, 253, 0.35)));
+  background-image: linear-gradient(180deg, #E3F2FD 1.39%, rgba(227, 242, 253, 0.35) 100%);
+}
+/*# sourceMappingURL=style.css.map */
